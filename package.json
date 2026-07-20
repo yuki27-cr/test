@@ -1,0 +1,14 @@
+{
+  "name": "linework-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:web": "vite --host 127.0.0.1 --port 5173",
+    "build:web": "vite build",
+    "preview:web": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
+  }
+}
