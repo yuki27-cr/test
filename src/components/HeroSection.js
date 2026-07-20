@@ -10,11 +10,11 @@ export function HeroSection() {
         <h1 id="hero-title">${hero.title}</h1>
         <p class="hero-copy">${hero.copy}</p>
         <div class="hero-actions">
-          <a class="primary-button large" href="#workflow">Explore workflow</a>
-          <a class="secondary-button large" href="#features">View features</a>
+          <a class="primary-button large" href="#workflow">查看流程</a>
+          <a class="secondary-button large" href="#features">浏览功能</a>
         </div>
       </div>
-      <div class="hero-status" aria-label="Product status summary">
+      <div class="hero-status" aria-label="产品状态摘要">
         <span>${hero.status.cycle}</span>
         <strong>${hero.status.progress}</strong>
         <span>${hero.status.state}</span>
