@@ -17,7 +17,7 @@ export function ChangelogSection() {
 
   return `
     <section id="changelog" class="section-block">
-      <div class="section-kicker">Latest updates</div>
+      <div class="section-kicker">最新更新</div>
       <div class="release-list">
         ${rows}
       </div>

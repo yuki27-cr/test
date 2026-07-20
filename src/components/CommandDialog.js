@@ -9,12 +9,12 @@ export function CommandDialog() {
     <dialog class="command-dialog" aria-labelledby="command-title">
       <form method="dialog">
         <div class="command-header">
-          <h2 id="command-title">Command menu</h2>
-          <button class="close-button" value="close" aria-label="Close command menu">x</button>
+          <h2 id="command-title">命令菜单</h2>
+          <button class="close-button" value="close" aria-label="关闭命令菜单">×</button>
         </div>
         <label class="command-search">
-          <span>Search</span>
-          <input type="search" placeholder="Type a command or jump to a page..." autofocus />
+          <span>搜索</span>
+          <input type="search" placeholder="输入命令，或跳转到某个页面..." autofocus />
         </label>
         <div class="command-list">
           ${commands}

@@ -29,17 +29,16 @@ export function WorkflowSection() {
   return `
     <section id="workflow" class="workflow-section">
       <div class="workflow-copy">
-        <div class="section-kicker">Workflow</div>
-        <h2>Designed around momentum, not status theater.</h2>
+        <div class="section-kicker">工作流程</div>
+        <h2>围绕推进速度设计，而不是围绕状态表演。</h2>
         <p>
-          Move from idea to issue to release note without losing context. Each view is dense,
-          direct, and tuned for teams that repeat the same motions every day.
+          从想法到事项，再到发布说明，整个过程不丢上下文。每个视图都紧凑、直接，适合每天重复推进工作的团队。
         </p>
         <div class="metrics-row">
           ${metrics}
         </div>
       </div>
-      <div class="workflow-panel" aria-label="Workflow preview">
+      <div class="workflow-panel" aria-label="工作流程预览">
         <div class="panel-topbar">
           <span></span>
           <span></span>

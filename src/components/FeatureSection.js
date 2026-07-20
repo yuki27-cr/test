@@ -15,12 +15,11 @@ export function FeatureSection() {
 
   return `
     <section id="features" class="section-block">
-      <div class="section-kicker">A calmer system</div>
+      <div class="section-kicker">更安静的系统</div>
       <div class="section-heading-row">
-        <h2>Every planning surface, reduced to the work that matters.</h2>
+        <h2>每个规划界面，都只保留真正重要的工作。</h2>
         <p>
-          The interface keeps structure visible without turning the product into administration.
-          Issues, cycles, docs, and insights share one consistent rhythm.
+          界面让结构保持可见，却不会把产品变成填表系统。事项、周期、文档和洞察共享同一套节奏。
         </p>
       </div>
       <div class="feature-grid">
